@@ -6,10 +6,10 @@ A simple blockchain node:
 - mining rewards
 - mempool to hold pending transactions
 - APIs:
-  /get-balance/:address
-  /utxos (list all utxos in the chain)
-  /generate (generate a new address along with its private key)
-  /submit-transaction (user can send to another address, needs sender's signature. transaction will be kept in mempool.) 
+  * /get-balance/:address
+  * /utxos (list all utxos in the chain)
+  * /generate (generate a new address along with its private key)
+  * /submit-transaction (user can send to another address, needs sender's signature. transaction will be kept in mempool.) 
 - run node mine/startMining.js to start mining
 - run node mine/stopMining.js to stop mining
   
