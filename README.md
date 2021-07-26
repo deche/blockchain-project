@@ -5,7 +5,12 @@ A simple blockchain node:
 - proof of work 
 - mining rewards
 - mempool to hold pending transactions
-
+- APIs:
+  /get-balance/:address
+  /utxos (list all utxos in the chain)
+  /generate (generate a new address along with its private key)
+  /submit-transaction (user can send to another address, needs sender's signature. transaction will be kept in mempool.)
+  
 
 TO DO:
 - Add nonce for every transaction to prevent double spent
